@@ -5,7 +5,10 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/manage.py" }
-  ]
+  ],
+  "env": {
+    "PYTHON_VERSION": "3.9"  // or "3.10"
+  }
 }
 
   
