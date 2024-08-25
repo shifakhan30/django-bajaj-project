@@ -1,0 +1,18 @@
+{
+    "builds": [
+      {
+        "src": "manage.py",
+        "use": "@vercel/python",
+        "config": {
+          "zeroConfig": true
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "manage.py"
+      }
+    ]
+  }
+  
